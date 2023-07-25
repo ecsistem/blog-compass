@@ -57,13 +57,6 @@ html {
   box-sizing: inherit;
 }
 
-/* O texto não será selecionável */
-body,
-input,
-textarea {
-  user-select: none;
-}
-
 /* Garante que os elementos de foco sejam visíveis e acessíveis */
 a,
 button,
