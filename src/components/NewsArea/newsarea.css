@@ -3,38 +3,97 @@
 article {
     margin: 6.75rem 4.9375rem;
 }
-article .card-post {
+
+.cards-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.card-post {
     background: var(--color-white);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    width: 409px;
+    width: 100%;
+    max-width: 409px;
     height: 455px;
+    scale: 105%;
 }
-article .container-card {
-    margin: 20px 21px 18px 29px ;
+.card-post:not(:hover) {
+    opacity: 95%;
+    scale: 100%;
+    transition: 0.5s;
 }
-article img {
-    width: 409px;
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 21px 18px 29px;
+}
+
+.article-image {
+    width: 100%;
+    max-width: 409px;
     height: 273px;
+    border-radius: 8px 8px 0 0;
 }
-article .title {
-    margin: 0 0 78px 0;
+
+.article-title {
+    color: var(--title, #3A4F9A);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2; 
+    letter-spacing: 3.6px;
+    margin: 0 0 73px 0;
+    position: relative;
 }
-    article .card-title {
+
+.article-title::before {
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid var(--color-title);
+    width: 214px;
+    bottom: -6px; 
+}
+
+.expand {
+    text-align: right;
+    color: var(--title, #3A4F9A);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 1.3px;
+}
+
+.card-title {
     color: var(--color-title);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 100% */
+    line-height: 1.2; 
     letter-spacing: 2px;
 }
-article p {
+
+p {
     color: var(--color-gray);
     font-family: Inter;
     font-size: 13px;
     font-style: normal;
     font-weight: 300;
-    line-height: 20px; /* 153.846% */
+    line-height: 1.6; 
     letter-spacing: 1.3px;
+}
+
+@media screen and (max-width: 768px) {
+    .cards-posts {
+        grid-template-columns: 1fr;
+    }
+    .card-post{
+        justify-items: center;
+    }
 }
