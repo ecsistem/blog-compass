@@ -1,0 +1,29 @@
+@import "../../assets/css/colors.css";
+.nav {
+    background: var(--color-primary);
+    width: 100%;
+    padding: 0.9375rem 79px; 
+    height: 59px;
+    display: flex;
+    align-items: center; /* Align flex items (title and logo) vertically */
+}
+.nav a{
+    margin: auto 0.5rem;
+}
+.nav .title{
+    color: var(--color-white);
+    font-size: 24px;  
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.nav .logo{
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
+@media (max-width: 700px) {
+    .nav {
+        justify-content: center
+ }
+}

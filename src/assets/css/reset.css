@@ -1,0 +1,96 @@
+@import "./colors.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Reset CSS */
+
+/* Remove a margem padrão e o preenchimento */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Quebra de texto caso o conteúdo seja muito grande para o container */
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+/* Remove estilos padrão da lista */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove a decoração do link */
+a {
+  text-decoration: none;
+}
+
+
+/* Define a cor do texto para preto */
+body {
+  color: var(--color-title);
+}
+
+/* O conteúdo da página ocupará a largura total */
+body,
+html {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Corrige o box-sizing para incluir padding e border no tamanho total do elemento */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* O texto não será selecionável */
+body,
+input,
+textarea {
+  user-select: none;
+}
+
+/* Garante que os elementos de foco sejam visíveis e acessíveis */
+a,
+button,
+input,
+textarea,
+select {
+  outline: none;
+}
+
+/* Remova os estilos padrão da tag de botão */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Define a família de fontes padrão e o tamanho do texto para uma melhor legibilidade */
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+}
+
+/* O conteúdo se ajustará ao tamanho da tela */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
