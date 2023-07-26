@@ -3,18 +3,21 @@
   "description": "Blog Compasso UOL",
   "author": {
     "name": "Edson Costa",
-    "email": "edson.costa.pb@compasso.com.br"},
+    "email": "edson.costa.pb@compasso.com.br"
+  },
   "license": "MIT",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "vite": "^4.4.7"
   }
 }
