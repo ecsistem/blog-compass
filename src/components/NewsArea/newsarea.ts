@@ -12,37 +12,37 @@ const newsData: NewsData[] = [
     id: 1,
     title: "The Future",
     image: "https://github.com/ecsistem.png",
-    content: "Lorem Ipsum is simply dummy text...",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tooks",
   },
   {
     id: 2,
     title: "The Future",
     image: "https://github.com/ecsistem.png",
-    content: "Lorem Ipsum is simply dummy text...",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took....",
   },
   {
     id: 3,
     title: "The Future",
     image: "https://github.com/ecsistem.png",
-    content: "Lorem Ipsum is simply dummy text...",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took....",
   },
   {
     id: 4,
     title: "The Future",
     image: "https://github.com/ecsistem.png",
-    content: "Lorem Ipsum is simply dummy text...",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took....",
   },
   {
     id: 5,
     title: "The Future",
     image: "https://github.com/ecsistem.png",
-    content: "Lorem Ipsum is simply dummy text...",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took....",
   },
   {
     id: 6,
     title: "The Future",
     image: "https://github.com/ecsistem.png",
-    content: "Lorem Ipsum is simply dummy text...",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took....",
   },
   // Adicione mais notícias aqui
 ];
