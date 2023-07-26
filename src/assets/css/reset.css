@@ -43,6 +43,11 @@ body {
   color: var(--color-title);
 }
 
+/* Define a cor do texto do paragrafo para cinza */
+p{
+  color: var(--color-gray);
+}
+
 /* O conteúdo da página ocupará a largura total */
 body,
 html {
