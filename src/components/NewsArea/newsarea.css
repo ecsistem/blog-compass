@@ -28,15 +28,15 @@ article {
 .container-card {
     display: flex;
     flex-direction: column;
-    margin: 20px 21px 18px 29px;
+    padding: 20px 18px;
 }
-
 .article-image {
     width: 100%;
     max-width: 409px;
-    height: 273px;
+    height: auto; 
     border-radius: 8px 8px 0 0;
-}
+    object-fit: cover;
+  }
 
 .article-title {
     color: var(--title, #3A4F9A);
