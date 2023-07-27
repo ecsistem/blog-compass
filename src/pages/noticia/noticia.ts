@@ -27,7 +27,7 @@ function generateCommentList(commentsForPost: Comment[]): string {
   const commentList = commentsForPost
     .map(
       (comment) =>
-        `<li class="list-comment border-comment"><p><span class="comment-user">${comment.email}:</span>${comment.body}</p></li>`
+        `<li class="list-comment border-comment"><p class="comment-p"><span class="comment-user">${comment.username}:</span><span class="comment-user">${comment.email}:</span>${comment.body}</p></li>`
     )
     .join("");
 
