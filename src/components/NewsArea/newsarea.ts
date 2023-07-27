@@ -1,51 +1,5 @@
 import "./newsarea.css";
-
-interface NewsData {
-  id: number;
-  title: string;
-  image: string;
-  content: string;
-}
-
-const newsData: NewsData[] = [
-  {
-    id: 1,
-    title: "The Future",
-    image: "https://github.com/ecsistem.png",
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tooks",
-  },
-  {
-    id: 2,
-    title: "The Future",
-    image: "https://github.com/ecsistem.png",
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took....",
-  },
-  {
-    id: 3,
-    title: "The Future",
-    image: "https://github.com/ecsistem.png",
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took....",
-  },
-  {
-    id: 4,
-    title: "The Future",
-    image: "https://github.com/ecsistem.png",
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took....",
-  },
-  {
-    id: 5,
-    title: "The Future",
-    image: "https://github.com/ecsistem.png",
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took....",
-  },
-  {
-    id: 6,
-    title: "The Future",
-    image: "https://github.com/ecsistem.png",
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took....",
-  },
-  // Adicione mais notícias aqui
-];
+import { posts } from "../../data/data";
 
 export function createNewsArea(): HTMLElement {
   const NewsAreaContent = `
@@ -64,15 +18,15 @@ export function createNewsArea(): HTMLElement {
 }
 
 function generateNewsCards(): string {
-  return newsData
+  return posts
     .map(
-      (news) => `
+      (post) => `
         <div class="card-post">
-          <img class="article-image" src=${news.image} alt=${news.title}>
+          <img class="article-image" src=${post.imageUrl} alt=${post.title}>
           <div class="container-card">
-            <h3 class="card-title">${news.title}</h3>
-            <p>${news.content}</p>
-            <a class="expand" href="noticia.html?id=${news.id}&title=${news.title}">Expand...</a>
+            <h3 class="card-title">${post.title}</h3>
+            <p>${post.body}</p>
+            <a class="expand" href="noticia.html?id=${post.id}&title=${post.title}">Expand...</a>
           </div>
         </div>
       `
