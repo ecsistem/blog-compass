@@ -4,7 +4,7 @@ export default {
       rollupOptions: {
         input: {
           index: './index.html',
-          noticia: './noticia.html', 
+          news: './news.html', 
         }
       }
     }
