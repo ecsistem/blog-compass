@@ -38,7 +38,7 @@ a {
 }
 
 
-/* Define a cor do texto para preto */
+/* Define a cor do texto para o title */
 body {
   color: var(--color-title);
 }
