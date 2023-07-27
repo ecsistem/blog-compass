@@ -22,14 +22,17 @@ function generateNewsCards(): string {
     .map(
       (post) => `
         <div class="card-post">
+        <a href="noticia.html?id=${post.id}&title=${post.title}">
           <img class="article-image" src=${post.imageUrl} alt=${post.title}>
           <div class="container-card">
             <h3 class="card-title">${post.title}</h3>
             <p>${post.body}</p>
             <a class="expand" href="noticia.html?id=${post.id}&title=${post.title}">Expand...</a>
           </div>
+          </a>
         </div>
       `
     )
     .join("");
+    
 }
