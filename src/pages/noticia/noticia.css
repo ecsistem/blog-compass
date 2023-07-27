@@ -50,7 +50,11 @@
 
   .list-comment .comment-user {
     color: var(--color-title);
-    font-weight: bold; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    letter-spacing: 1.6px; 
     margin-right: 5px; 
   }
   
@@ -76,6 +80,14 @@
     text-align:center;
     font-size:30px;
   }
+  .comment-p{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 1.6px;
+
+  }
 
 p {
     color: var(--color-gray);
@@ -83,7 +95,7 @@ p {
   font-size: 13px;
   font-style: normal;
   font-weight: 300;
-  line-height: 1.6; 
+  line-height: 20px; 
   letter-spacing: 1.3px;
 }
 

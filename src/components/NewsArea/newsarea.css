@@ -34,7 +34,7 @@ article {
 .article-image {
     width: 100%;
     max-width: 409px;
-    height: auto; 
+    height: 273px; 
     border-radius: 8px 8px 0 0;
     object-fit: cover;
   }
@@ -49,13 +49,14 @@ article {
     letter-spacing: 3.6px;
     margin: 0 0 73px 0;
     position: relative;
+    white-space: nowrap;
 }
 
 .article-title::before {
     content: "";
     position: absolute;
     border-bottom: 3px solid var(--color-title);
-    width: 214px;
+    width: 220px;
     bottom: -6px; 
 }
 
@@ -78,6 +79,11 @@ article {
     font-weight: 500;
     line-height: 1.2; 
     letter-spacing: 2px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 p {
