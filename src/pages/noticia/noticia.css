@@ -106,4 +106,7 @@ p {
     .card-post{
         justify-items: center;
     }
+    .card-post:first-child{
+        margin-top: 120px;
+    }
 }
