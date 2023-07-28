@@ -1,4 +1,4 @@
-import { Comment } from "../interfaces/comments";
+import { Comment } from "../interfaces/comments.ts";
 import { Post } from "../interfaces/posts";
 const posts: Post[] = [
     {
