@@ -1,6 +1,6 @@
 # Blog Compass 🚀
 
-![Logo](link-para-o-logo)
+![Logo](https://i.ibb.co/341CwqD/home.png)
 
 Este é um projeto de blog desenvolvido em Vanilla.js (JavaScript puro) para o programa de bolsa da Compass.uol, sem a utilização de frameworks ou bibliotecas adicionais. O objetivo deste projeto é criar um blog simples e elegante, proporcionando uma experiência de leitura agradável para os usuários.
 
@@ -20,7 +20,7 @@ Este projeto não possui dependências externas, pois é desenvolvido utilizando
 
 ## Link do demo 🚀
 
-[https://link-para-o-demo](https://link-para-o-demo)
+[https://blog-compass.vercel.app/](https://blog-compass.vercel.app/)
 
 ## Rodando localmente 💻
 
@@ -29,7 +29,7 @@ Siga os passos abaixo para rodar o projeto em sua máquina local:
 1. Clone o repositório ⬇️
 
 ```bash
-git clone https://link-para-o-projeto
+git clone https://github.com/ecsistem/blog-compass
 ```
 
 2. Acesse o diretório do projeto 📂
