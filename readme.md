@@ -16,7 +16,7 @@ Este é um projeto de blog desenvolvido em Vanilla.js (JavaScript puro) para o p
 
 ## Dependências🛠️
 
-Este projeto não possui dependências externas, pois é desenvolvido utilizando JavaScript puro (Vanilla.js).
+Este projeto não possui dependências externas, pois é desenvolvido utilizando TypeScript puro (Vanilla.ts).
 
 ## Link do demo 🚀
 
