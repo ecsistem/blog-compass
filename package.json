@@ -15,7 +15,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "vite": "^4.4.7"
   },
   "dependencies": {
     "vite": "^4.4.7"
