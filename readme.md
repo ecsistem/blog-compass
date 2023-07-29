@@ -70,7 +70,7 @@ Para fazer o build do projeto, execute o seguinte comando:
 npm run build
 ```
 
-Ambiente de Desenvolvimento - Docker
+## 🧱Ambiente de Desenvolvimento - Docker
 Para iniciar o servidor de desenvolvimento do Vite com docker, execute o seguinte comando:
 
 ```bash
@@ -78,7 +78,7 @@ docker-compose up development
 ```
 Isso iniciará o servidor de desenvolvimento do Vite, e você poderá acessá-lo em http://localhost:3000 no seu navegador.
 
-## Ambiente de Produção - Docker
+## 🧱Ambiente de Produção - Docker
 Para realizar o build da aplicação usando o Vite e executar o ambiente de produção com o Nginx, execute o seguinte comando:
 
 ```bash
